@@ -17,21 +17,6 @@ New tools will be added progressively, and this README will serve as an index wi
 
 ---
 
-## 🚀 Usage
-
-Each tool is implemented as a standalone Python file.  
-You can import the functions into your own projects or run them directly with sample data.  
-
-Example (from `json_fsearch.py`):
-
-```python
-from json_fsearch import read_json_file
-
-result = read_json_file("test_data.json", "city")
-print(result)  # → Anytown
-
-```
-
 ### License
 
 ***MIT License © 2024 Leoncio López***

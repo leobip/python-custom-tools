@@ -43,6 +43,30 @@ Example JSON file (test_data.json)
 }
 ```
 
+### Example Python code
+
+```python
+from json_fsearch import read_json_file
+
+file_path = "test_data.json"
+search_key = "city"
+
+result = read_json_file(file_path, search_key)
+
+if result is not None:
+    print(f"The value of '{search_key}' is: {result}")
+else:
+    print(f"Key '{search_key}' not found.")
+```
+
+### Output
+
+```bash
+The value of 'city' is: Anytown
+```
+
+---
+
 ### Functions
 
 json_full_search(obj, search_key)
